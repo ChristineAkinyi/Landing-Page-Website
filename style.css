@@ -1,0 +1,602 @@
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.navbar{
+    display: flex; 
+    list-style: none;
+    gap: 10%;
+
+}
+
+#butt1{
+    color: white;
+    background-color: #FFA4D5;
+    padding: 4px 20px 4px 20px;
+    border-radius: 5px;
+}
+
+.split{
+    background-color: #F0FBF7;
+    display: flex;
+    margin-top: 30px;
+    gap: 20%;
+}
+
+#loading{
+    width: 60px;
+    border-radius: 80px;
+}
+
+.inner{
+    display: flex;
+    gap: 10%;
+}
+
+.Roger{
+    display: flex;
+    gap: 10%;
+    /* text-decoration-line:; */
+}
+
+.butt6{
+    color: white;
+    background-color: #252849;
+}
+
+.butt7{
+    color: black;
+    background-color: #FFFFFF;
+}
+
+#sub-head{
+    margin-left: 100px;
+    margin-bottom: 9px;
+}
+
+.logos{
+    display: flex;
+    
+}
+
+.loggo{
+    width: 150px;
+}
+#product{
+    color: red;
+    text-decoration:underline;
+}
+
+.prod{
+    margin-left: 200px;
+}
+
+.merits{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+}
+
+.symbols{
+    width: 20px;
+}
+
+.borderred{
+    border: solid 1px red;
+    text-align: center;
+    padding: 1px 0px 1px 2px;
+}
+
+.stats{
+    display: flex;
+    gap: 20%;
+    margin-top: 40px;
+}
+
+#cube{
+    width: 50px;
+    margin-top: 30px;
+}
+
+.profiles{
+    width: 100px;
+}
+
+.create{
+    display: flex;
+    gap: 5%;
+}
+
+#butt2{
+    margin-top: 40px;
+    color: white;
+    background-color: #2E82F6;
+    border-radius: 20px;
+    padding: 3px 15px 3px 15px;
+}
+
+#lady{
+    margin-left: 200px;
+}
+
+#hook{
+    width: 30px;
+}
+
+#butt3{
+    color: white;
+    background-color: #FE3D82;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+}
+
+.global{
+    margin-left: 200px;
+    /* font-family:; */
+}
+
+#customer{
+    color: red;
+    text-decoration: underline;
+}
+
+#mobil{
+    width: 40px;
+}
+
+#prof{
+    width: 20px;
+    height: 16px;
+    margin-top: 15px;
+}
+
+#emo{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.mobile{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10%;
+}
+
+#butt4{
+    color: white;
+    background-color: #252849;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+}
+
+.dave{
+    display: flex;
+    gap: 5%;
+}
+
+#arrowhead{
+    margin-top: 15px;
+}
+
+.lang{
+    display: flex;
+    gap: 5%;
+}
+
+#butt5{
+    border-radius: 20px;
+    padding: 10px 60px 10px 60px;
+}
+
+#butt6{
+    border-radius: 20px;
+    padding: 10px 55px 10px 55px;
+}
+
+#round1{
+    width: 70px;
+}
+
+#bel{
+    width: 18px;
+}
+
+.boost{
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    margin-top: 10px;
+}
+
+.ring{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+#angel{
+    white-space: nowrap;
+    font-size: smaller;
+}
+
+#words{
+    color: red;
+    text-decoration: underline;
+}
+
+#paragraph{
+    margin-left: 200px;
+}
+
+#edwin{
+    width: 60px;
+}
+
+#jeccy{
+    width: 50px;
+}
+
+.clientele{
+    display: flex;
+    gap: 20%;
+}
+
+.clients{
+    border: solid 1px red;
+    padding: 5px 10px 5px 10px;
+}
+
+#lasty{
+    width: 500px;
+}
+
+.lastpage{
+    display: flex;
+    margin-top: 50px;
+    gap: 10%;
+}
+
+.insta{
+    width: 30px;
+}
+
+.foot{
+    list-style: none;
+}
+
+.footer{
+    display: flex;
+    background-color: #252849;
+    color: white;
+}
+
+.foot1{
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+    }
+
+    .end{
+        display: flex;
+        gap: 5%;
+        color: white;
+        background-color: #000000;
+    }
+
+    @media screen and (min-width:375px) and (max-width: 768px){
+        .navbar{
+            flex-direction: column;      
+        
+        }
+
+        .logos{
+      flex-direction: column;
+            
+        }
+
+        .stats{
+            flex-direction: column;
+            gap: 20%;
+            margin-top: 40px;
+        }
+
+        .profiles{
+            width: 60px;
+            margin-right: 30px;
+        }
+
+        #lasty{
+            width: 250px;
+        }
+
+        .lastpage{
+            flex-direction: column;
+            /* margin-top: 50px; */
+            /* gap: 10%; */
+        }
+
+        .footer{
+            flex-direction: column;
+            background-color: #252849;
+            color: white;
+        }
+
+        .end{
+            flex-direction: column;
+            gap: 5%;
+            color: white;
+            background-color: #000000;
+        }
+
+        .mobile{
+            flex-direction: column;
+        }
+
+        #butt5{
+            border-radius: 20px;
+            padding: 10px 40px 10px 40px;
+        }
+        
+        #butt6{
+            border-radius: 20px;
+            padding: 10px 40px 10px 40px;
+        }
+
+        .split{
+            background-color: #F0FBF7;
+            flex-direction: column;
+            margin-top: 30px;
+            gap: 20%;
+        }
+        .social{
+            flex-direction: column;
+        }
+        
+        .boost{
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+        }
+
+        .plus{
+            flex-wrap: wrap;
+        }
+
+        .prod{
+            margin-left: 10%;
+        }
+
+     }
+      @media screen  and (min-width:769px) and (max-width:1020px){
+        .logos{
+            flex-direction: column;
+                  
+              }
+      
+              .stats{
+                  flex-direction: column;
+                  gap: 20%;
+                  margin-top: 40px;
+              }
+      
+              .profiles{
+                  width: 60px;
+                  margin-right: 30px;
+              }
+      
+              #lasty{
+                  width: 250px;
+              }
+      
+              .lastpage{
+                  flex-direction: column;
+                  /* margin-top: 50px; */
+                  /* gap: 10%; */
+              }
+      
+              .footer{
+                  flex-direction: column;
+                  background-color: #252849;
+                  color: white;
+              }
+      
+              .end{
+                  flex-direction: column;
+                  gap: 5%;
+                  color: white;
+                  background-color: #000000;
+              }
+      
+              .mobile{
+                  flex-direction: column;
+              }
+      
+              #butt5{
+                  border-radius: 20px;
+                  padding: 10px 40px 10px 40px;
+              }
+              
+              #butt6{
+                  border-radius: 20px;
+                  padding: 10px 40px 10px 40px;
+              }
+      
+              .split{
+                  background-color: #F0FBF7;
+                  flex-direction: column;
+                  margin-top: 30px;
+                  gap: 20%;
+              }
+              .social{
+                  flex-direction: column;
+              }
+              
+              .boost{
+                  flex-direction: column;
+                  /* flex-wrap: wrap; */
+              }
+      
+              .plus{
+                  flex-wrap: wrap;
+              }
+      
+              .prod{
+                  margin-left: 10%;
+              }
+
+        } 
+        
+        @media screen  and (min-width:769px) and (max-width:1020px){
+
+        }
+
+        .logos{
+      flex-direction: column;
+            
+        }
+
+        .stats{
+            flex-direction: column;
+            gap: 20%;
+            margin-top: 40px;
+        }
+
+        .profiles{
+            width: 60px;
+            margin-right: 30px;
+        }
+
+        #lasty{
+            width: 250px;
+        }
+
+        .lastpage{
+            flex-direction: column;
+            /* margin-top: 50px; */
+            /* gap: 10%; */
+        }
+
+        .footer{
+            flex-direction: column;
+            background-color: #252849;
+            color: white;
+        }
+
+        .end{
+            flex-direction: column;
+            gap: 5%;
+            color: white;
+            background-color: #000000;
+        }
+
+        .mobile{
+            flex-direction: column;
+        }
+
+        #butt5{
+            border-radius: 20px;
+            padding: 10px 40px 10px 40px;
+        }
+        
+        #butt6{
+            border-radius: 20px;
+            padding: 10px 40px 10px 40px;
+        }
+
+        .split{
+            background-color: #F0FBF7;
+            flex-direction: column;
+            margin-top: 30px;
+            gap: 20%;
+        }
+        .social{
+            flex-direction: column;
+        }
+        
+        .boost{
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+        }
+
+        .plus{
+            flex-wrap: wrap;
+        }
+
+        .prod{
+            margin-left: 10%;
+        }
+
+
+      @media screen  and (min-width:769px) and (max-width:1020px){
+        .logos{
+            flex-direction: column;      
+              .stats{
+                  flex-direction: column;
+                  gap: 20%;
+                  margin-top: 40px;
+              }
+      
+              .profiles{
+                  width: 60px;
+                  margin-right: 30px;
+              }
+      
+              #lasty{
+                  width: 250px;
+              }
+      
+              .lastpage{
+                  flex-direction: column;
+              }
+      
+              .footer{
+                  flex-direction: column;
+                  background-color: #252849;
+                  color: white;
+              }
+      
+              .end{
+                  flex-direction: column;
+                  gap: 5%;
+                  color: white;
+                  background-color: #000000;
+              }
+      
+              .mobile{
+                  flex-direction: column;
+              }
+      
+              #butt5{
+                  border-radius: 20px;
+                  padding: 10px 40px 10px 40px;
+              }
+              
+              #butt6{
+                  border-radius: 20px;
+                  padding: 10px 40px 10px 40px;
+              }
+      
+              .split{
+                  background-color: #F0FBF7;
+                  flex-direction: column;
+                  margin-top: 30px;
+                  gap: 20%;
+              }
+              .social{
+                  flex-direction: column;
+              }
+              
+              .boost{
+                  flex-direction: column;
+              }
+      
+              .plus{
+                  flex-wrap: wrap;
+              }
+      
+              .prod{
+                  margin-left: 10%;
+              }
+        }
+    }
+
+        
+    
